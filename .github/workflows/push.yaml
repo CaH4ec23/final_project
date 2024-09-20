@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: CaH4ec23/final_project
+          images: caH4ec23/final_project
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
